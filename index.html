@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- For Mobile responsiveness -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>its me sunil pratap </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/siteIcon/icon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="_animation.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <!-- Media Query Files -->
+    <link rel="stylesheet" href="indexMQ/576px_XS.css">
+    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
+    <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
+    <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
+    <link rel="stylesheet" href="indexMQ/1200px_XL.css">
+
+
+    <link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <!-- Other scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+    <!-- For Scroll on Top Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <!-- For 'fa' font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar Code -->
+    <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar" data-aos="fade-down"
+        data-aos-delay="200">
+        <!-- Brand Name -->
+        <a href="index.html" class="navbar-brand">
+            < <span id="brandName">sunil pratap</span> />
+        </a>
+        <!-- Collapse Button for smaller screen size -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
+        </button>
+        <!-- Nav Buttons on left side -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a id="homeLink" href="#homeDiv" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a id="aboutLink" href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a id="serviceLink" href="#services" class="nav-link">CERTIFICATIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a id="toolsLink" href="#tools" class="nav-link">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a id="serviceLink" href="#education" class="nav-link">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a id="githubLink" href="#github" class="nav-link">INTERNSHIPS</a>
+                </li>
+                <li class="nav-item">
+                    <a id="contactLink" href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="homeDiv" class="homeDiv">
+        <div class="homeElements container-fluid">
+            <h3 id="welcomeText">WELCOME TO MY PORTFOLIO</h3>
+            <h1 id="dynamicText">
+                <span class="txt-type" data-wait=1000ms
+                    data-words='["Certified with Arduino","Internet of things practitioner","AWS Cloud learner", "Python learner" ]'></span>
+            </h1>
+            <a href="#contact" class="btn btn-primary myWorkBtn"><span id="btnText">Hire Me</span></a>
+        </div>
+    </div>
+
+    <div id="about" class="aboutDiv">
+
+        <div id="wave" class="backWaveImg" data-aos="fade-up" data-aos-delay="100">
+            <img id="imgWave" src="images/greenBack.png" width="100%">
+        </div>
+
+        <div class="container-fluid picName">
+            <div class="row">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+                <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 picDiv">
+                    <img id="myPic" src="images/about/me.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-lg-5 col-xl-5 nameBtn">
+                    <h1 class="name" id="name">SUNIL PRATHAP</h1>
+                    <a href="https://drive.google.com/file/d/1L1PDctZ-JRbDu9roXb42TT__W4wyfBQv/view?usp=sharing" download="hamza_resume.pdf"
+                        class="btn btn-primary downloadBtn">Download
+                        Resume <i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid aboutInformation">
+            <div class="row">
+
+                <div class="col-1 col-sm-1 col-md-1 col-xl-1"></div>
+
+                <div class="aboutMe col-12 col-sm-12 col-md-11 col-lg-5 col-xl-5" data-aos="fade-right"
+                    data-aos-delay="100">
+                    <h1 id="meHeading">About Me</h1>
+                    <p id="aboutMeText">
+                        Proactive and results-oriented student with a strong foundation in Python programming and cloud technologies, including AWS and Oracle Cloud. Demonstrated ability to apply technical knowledge through projects like building scalable cloud architecture with VPC. Holds multiple industry certifications in Python, Arduino, and AWS for beginners. Excellent communication and interpersonal skills, with a proven ability to work both independently and collaboratively within a team.
+
+                    <p>Cheers :)</p>
+                </div>
+
+                <div class="col-12 col-md-11 col-lg-5 col-xl-4 mySkills" data-aos="fade-left" data-aos-delay="100">
+                    <div class="signature">
+                        <span id="signBrackets">
+                            < </span> <span id="signature">Sunil pratap</span> <span id="signBrackets">/></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="services" class="servicesDiv">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="serviceHeadingTxt">Certifications</h1>
+                </div>
+            </div>
+
+            <div class="row offers">
+
+                <div data-aos="fade-down" data-aos-delay="350"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 other offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/ard.png">
+                    <h5 id="offerName">ARDUINO</h5>
+                    <a href="images/about/hamza_resume.pdf" download="hamza_resume.pdf"
+                        class="btn btn-primary downloadBtn">Look here <i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="550"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/py.png">
+                    <h5 id="offerName">PYTHON</h5>
+                    <a href="images/about/hamza_resume.pdf" download="hamza_resume.pdf"
+                        class="btn btn-primary downloadBtn">Look here <i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="750"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/np.png">
+                    <h5 id="offerName">INTERNET OF THINGS (IOT)</h5>
+                    <a href="https://drive.google.com/file/d/1C0XA0MiJm4XtBvetJiyzFpYnOE2Mv3Q_/view?usp=sharing" download="hamza_resume.pdf"
+                    class="btn btn-primary downloadBtn">Look here <i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+             
+        </div>
+    </div>
+
+    <div id="tools" class="toolsDiv">
+
+        <div class="container-fluid">
+
+            <div class="row toolsHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">skills</h1>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="col-xl-1"></div>
+        
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="600">
+                    <img id="ppImg" src="images/about/ord.png">
+                    <p id="toolName">Arduino</p>
+                </div>
+                <div class="flutterS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="100">
+                    <img id="ppImg" src="images/about/pyt.png">
+                    <p id="toolName">Python</p>
+                </div>
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="600">
+                    <img id="ppImg" src="images/about/iot.png">
+                    <p id="toolName">IOT</p>
+                </div>
+                <div class="dartS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="200">
+                    <img id="ppImg" src="images/about/c.png">
+                    <p id="toolName">C </p>
+                </div>
+                
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="600">
+                    <img id="ppImg" src="images/about/aws.png">
+                    <p id="toolName">AWS Cloud</p>
+                </div>
+                
+                
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    
+    <div id="education" class="servicesDiv">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="serviceHeadingTxt">Education</h1>
+                </div>
+            </div>
+
+            <div class="row offers">
+
+                <div data-aos="fade-down" data-aos-delay="350"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 other offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/aditya.png">
+                    <h5 id="offerName">SCHOOL</h5>
+                    <h5 id="offerName">Aditya group of schools (kakinada)</h5>
+                   
+                   
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="550"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/aditya.png">
+                    <h5 id="offerName">INTERMEDIATE</h5>
+                    <h5 id="offerName">Aditya junior college (kakinada)</h5>
+                    
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="750"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/about/aditya.png">
+                    <h5 id="offerName">B.TECH</h5>
+                    <h5 id="offerName">Aditya college of engineering and technology(surempalem)</h5>
+
+                </div>
+
+            </div>
+             
+        </div>
+    </div>
+
+
+    <div id="github" class="githubRepos">
+
+        <div class="container-fluid ">
+
+            <div class="row gitHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Internships</h1>
+                </div>
+            </div>
+
+            <div class="row repos">
+
+                <div class="col-xl-1"></div>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="400"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2"
+                    href="https://drive.google.com/file/d/19pZO60r5dsXXaWl6MOGEVhMl4ZoazxGZ/view?usp=sharing">
+                    <div class="repo">
+                        <img class="appIcon" src="images/about/java.jpeg" alt="">
+                        <h5 id="repoName">Full stack java</h5>
+                        <p id="repoDesc">Skill Dzire</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="600"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://drive.google.com/file/d/1cEIEzX1DQd370EdXrFGFSW6cRKD0Rg7G/view?usp=sharing">
+                    <div class="repo">
+                        <img class="appIcon" src="images/about/pyt.png" alt="">
+                        <h5 id="repoName">Python</h5>
+                        <p id="repoDesc">Technical Hub</p>
+                    </div>
+                </a>
+
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="1000"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://drive.google.com/file/d/1iIfrbZr3fQ38iVvJljOCgJvdgr4beorN/view?usp=sharing">
+                    <div class="repo">
+                        <img class="appIcon" src="images/about/aws.png" alt="">
+                        <h5 id="repoName">AWS Cloud</h5>
+                        <p id="repoDesc">Brainovision</p>
+                    </div>
+                </a>
+
+                
+
+            </div>
+
+        
+
+            
+
+        </div>
+    </div>
+
+    <div id="contact" class="contactDiv">
+        <div class="container-fluid">
+
+            <div class="row contactHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Contact</h1>
+                </div>
+            </div>
+
+            <div class="row repos">
+
+                <div class="col-xl-2"></div>
+
+                
+
+                <a data-aos="fade-down" data-aos-delay="900"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-phone fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Phone</h5>
+                        <p id="repoDesc">(+91) 8008710866</p>
+                    </div>
+                </a>
+
+                <a data-aos="fade-down" data-aos-delay="1000"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Email</h5>
+                        <p class="emailText" id="repoDesc"> bathinasunilpratap6699@gmail.com</p>
+                    </div>
+                </a>
+                <a data-aos="fade-down" data-aos-delay="1000"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">linkedIn</h5>
+                        <p class="emailText" id="repoDesc">www.linkedin.com/in/sunilpratap-bathina-89302b229/</p>
+                    </div>
+                </a>
+                <a data-aos="fade-down" data-aos-delay="800"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-home fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Location</h5>
+                        <p id="repoDesc">64-16-4/F2, Pratap Nagar, Kakinada</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <!-- Footer -->
+    <footer class="container-fluid footerContainer">
+        <div class="row">
+
+            <div class="copyrightDiv col-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
+                <p id="copyright">&copy;By Sunil Pratap</p>
+                <div id="up" class="up">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts for animations & Scroll on top to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
